@@ -1,9 +1,9 @@
 package application.model;
 
-import jakarta.annotation.GeneratedValue;
-import jakarta.annotation.GenerationType;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Entity;
-import jakarta.annotation.Id;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
